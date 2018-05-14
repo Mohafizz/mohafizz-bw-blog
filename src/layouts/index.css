@@ -1,11 +1,22 @@
-html, body {
-  font-family: "Open Sans", Roboto, "Helvetica Neue", Arial, sans-serif;
+html,
+body {
+  font-family: 'Open Sans', Roboto, 'Helvetica Neue', Arial, sans-serif;
 }
-a:link, a:visited {
+a:link,
+a:visited {
   cursor: pointer;
   color: inherit;
 }
-a:hover, a:active {
+a:hover,
+a:active {
   cursor: pointer;
   color: inherit;
+}
+
+.main-logo {
+  border-radius: 50%;
+}
+
+.footer-logo {
+  border-radius: 50%;
 }

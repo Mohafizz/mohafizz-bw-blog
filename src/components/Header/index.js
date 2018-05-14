@@ -32,7 +32,11 @@ const Header = ({ data: { site } }) => (
   <HeaderWrapper>
     <HeaderContent item xs={12}>
       <Link to="/">
-        <Logo src={logoImage} alt={site.siteMetadata.title} />
+        <Logo
+          className="main-logo"
+          src={logoImage}
+          alt={site.siteMetadata.title}
+        />
       </Link>
       <Navigation>
         <NavLink to="/">Home</NavLink>

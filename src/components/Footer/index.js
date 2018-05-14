@@ -71,7 +71,11 @@ class Footer extends Component {
         </Left>
         <Middle item xs={12} sm={2}>
           <Link to="/">
-            <FooterLogo src={logoImage} alt={site.siteMetadata.title} />
+            <FooterLogo
+              className="footer-logo"
+              src={logoImage}
+              alt={site.siteMetadata.title}
+            />
           </Link>
         </Middle>
         <Right item xs={12} sm={5}>
