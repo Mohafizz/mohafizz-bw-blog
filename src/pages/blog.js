@@ -41,11 +41,10 @@ const IndexPage = ({ data }) => {
     <Section>
       <Grid item xs={12} sm={8}>
         <Helmet title="Blog" />
-        <Typography variant="display1">Blog</Typography>
+        <Typography variant="display1">Thoughts</Typography>
         <Typography>
-          Officia e ipsum. Ut quis expetendis exquisitaque an eiusmod ubi nisi,
-          ex ab ipsum enim quis, quo quamquam a ullamco. Ab aliquip
-          comprehenderit, occaecat quae fugiat excepteur export.
+          This is my thoughts space. I will scribble anything that I am thinking
+          of or going through at the moment.
         </Typography>
         <List>
           {data.allMarkdownRemark.edges
